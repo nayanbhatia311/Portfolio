@@ -277,7 +277,7 @@ section.experience .left .experience-data .experience-data-data .detail{
 }
 section.experience .container .line{
     border-left: 6px solid var(--primary);
-    height: 35rem;
+    height: 60rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
     margin-right: -1.6rem;
