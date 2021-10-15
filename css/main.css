@@ -512,7 +512,7 @@ footer img:hover{
         font-size: 0.8rem;
     }
     section.projects {
-        clip-path: polygon(0 0,73% 9%,100% 0,100% 100%,0 100%);
+        /* clip-path: polygon(0 0,73% 9%,100% 0,100% 100%,0 100%); */
     }
     section.projects .card-wrapper .card {
         margin-bottom: 6rem;
