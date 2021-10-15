@@ -22,7 +22,7 @@ body{
 }
 .header{
     background: var(--dark);
-    clip-path: polygon(0 0,100% 0,100% 100%,70% 85%,0 100%);
+    /* clip-path: polygon(0 0,100% 0,100% 100%,70% 85%,0 100%); */
     padding-top: 0;
     padding-bottom: 0;
 }
@@ -124,6 +124,7 @@ section.about .about-img{
     height: 300px;
     border-radius: 30%;
 }
+
 section.about h1{
     margin-bottom: 1rem;
     font-size: 1.6rem;
