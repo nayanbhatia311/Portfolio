@@ -7,6 +7,7 @@
     /* --light:#F2F2F2; */
     --light:#fafafa;
     --secondary:#070606;
+    --primary-more: #c4f0f1 
 }
 
 html{
@@ -98,6 +99,12 @@ body{
     color: var(--primary);
     margin-bottom: 0.6rem;
 }
+
+.model .right h5{
+    font-size: 1.5rem;
+    color: var(--primary-more);
+    margin-bottom: 0.6rem;
+}
 .model .right h1{
     font-weight: 100;
     font-size: 4rem;
@@ -106,6 +113,10 @@ body{
 }
 .model .right h1 span{
     color: var(--primary);
+}
+h2 {
+
+    color: var(--primary-more)
 }
 .model .right p{
     line-height: 1.9;
@@ -177,7 +188,7 @@ section.about .links a img:hover{
 }
 section.projects{
     background: var(--light);
-    clip-path: polygon(0 0,30% 10%,100% 0,100% 100%,0 100%);
+    /* clip-path: polygon(0 0,30% 10%,100% 0,100% 100%,0 100%); */
 }
 section.projects .card-wrapper{
     display: grid;
@@ -218,7 +229,7 @@ section.projects .card-wrapper .card:hover h2,section.projects .card-wrapper .ca
 }
 section.experience {
     background: var(--dark);
-    clip-path: polygon(0 0,100% 0,100% 100%,70% 85%,0 100%);
+    /* clip-path: polygon(0 0,100% 0,100% 100%,70% 85%,0 100%); */
 }
 section.experience .container{
     padding: 0;
